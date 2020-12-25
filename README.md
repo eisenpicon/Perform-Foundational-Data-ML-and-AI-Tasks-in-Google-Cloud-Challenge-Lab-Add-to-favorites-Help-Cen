@@ -24,6 +24,8 @@ gcloud iam service-accounts keys create ~/key.json --iam-account my-natlang-sa@$
 
 export GOOGLE_APPLICATION_CREDENTIALS="/home/$USER/key.json"
 
+--- 
+
 gcloud auth activate-service-account my-natlang-sa@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com --key-file=$GOOGLE_APPLICATION_CREDENTIALS
 
 ## Utilice Cloud Natural Language API para analizar la oracion
@@ -42,7 +44,10 @@ gsutil cp result.json gs://YOUR_PROJECT-marking/task4-cnl.result
 
 ## Utilice Google Cloud Speech API para analizar el archivo de audio
 
+---
+
 nano request.json
+---
 
 {
   "config": {
