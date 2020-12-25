@@ -47,6 +47,7 @@ gsutil cp result.json gs://YOUR_PROJECT-marking/task4-cnl.result
 ---
 
 nano request.json
+
 ---
 
 {
@@ -59,13 +60,17 @@ nano request.json
   }
 }
 
+---
 
 
 curl -s -X POST -H "Content-Type: application/json" --data-binary @request.json \
 "https://speech.googleapis.com/v1/speech:recognize?key=${API_KEY}" > result.json
 
+---
+
 gsutil cp result.json gs://YOUR_PROJECT-marking/task4-gcs.result
 
+---
 
 
 gcloud iam service-accounts create quickstart
@@ -76,9 +81,13 @@ gcloud auth activate-service-account --key-file key.json
 
 export ACCESS_TOKEN=$(gcloud auth print-access-token)
 
+---
+
 ### Utilice Google Video Intelligence y detecte todo el texto del video
 
 nano request.json
+
+---
 
 {
    "inputUri":"gs://spls/gsp154/video/train.mp4",
@@ -87,11 +96,15 @@ nano request.json
    ]
 }
 
+---
 
 
 curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TOKEN" 'https://videointelligence.googleapis.com/v1/videos:annotate' -d @request.json
 
+---
+
 curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TOKEN" 'https://videointelligence.googleapis.com/v1/operations/OPERATION_FROM_PREVIOUS_REQUEST' > result1.json
 
+---
 
 gsutil cp result1.json gs://YOUR_PROJECT-marking/task4-gvi.result
