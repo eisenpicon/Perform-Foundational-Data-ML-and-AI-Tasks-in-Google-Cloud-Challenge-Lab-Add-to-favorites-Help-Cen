@@ -1,10 +1,6 @@
 # Perform-Foundational-Data-ML-and-AI-Tasks-in-Google-Cloud-Challenge-Lab-Add-to-favorites-Help-Cen
-
-##############################################################################################################################
 If you are getting help from our channel, we request you to subscribe to [Eisen Picon](https://www.youtube.com/channel/UCXvWiFZ7h89FQx0nI-LfaGw), 
 this is the only way to help us.
-#############################################################################################################################
-******************************************************************************************************************************
 
 # Task 1: Ejecuta un job simple de Dataflow
 
@@ -30,7 +26,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/$USER/key.json"
 
 gcloud auth activate-service-account my-natlang-sa@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com --key-file=$GOOGLE_APPLICATION_CREDENTIALS
 
-### Utilice Cloud Natural Language API para analizar la oracion
+## Utilice Cloud Natural Language API para analizar la oracion
 
 gcloud ml language analyze-entities --content="Old Norse texts portray Odin as one-eyed and long-bearded, frequently wielding a spear named Gungnir and wearing a cloak and a broad hat." > result.json
 
@@ -38,10 +34,14 @@ gcloud auth login
 
 ### Copy the token from the link provided  
 
+Cargue el archivo resultante a Cloud Storage con el siguiente comando: 
+
 gsutil cp result.json gs://YOUR_PROJECT-marking/task4-cnl.result
 
-nano request.json
 
+## Utilice Google Cloud Speech API para analizar el archivo de audio
+
+nano request.json
 
 {
   "config": {
