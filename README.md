@@ -32,7 +32,7 @@ gcloud ml language analyze-entities --content="Old Norse texts portray Odin as o
 
 gcloud auth login 
 
-### Copy the token from the link provided  
+Copy the token from the link provided  
 
 Cargue el archivo resultante a Cloud Storage con el siguiente comando: 
 
@@ -83,12 +83,7 @@ nano request.json
 
 
 
-curl -s -H 'Content-Type: application/json' \
-    -H "Authorization: Bearer $ACCESS_TOKEN" \
-    'https://videointelligence.googleapis.com/v1/videos:annotate' \
-    -d @request.json
-
-
+curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TOKEN" 'https://videointelligence.googleapis.com/v1/videos:annotate' -d @request.json
 
 curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TOKEN" 'https://videointelligence.googleapis.com/v1/operations/OPERATION_FROM_PREVIOUS_REQUEST' > result1.json
 
