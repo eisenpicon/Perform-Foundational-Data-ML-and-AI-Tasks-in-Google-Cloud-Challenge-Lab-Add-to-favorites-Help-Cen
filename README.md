@@ -49,7 +49,7 @@ gsutil cp result.json gs://YOUR_PROJECT-marking/task4-cnl.result
 nano request.json
 
 ---
-
+```json
 {
   "config": {
       "encoding":"FLAC",
@@ -59,7 +59,7 @@ nano request.json
       "uri":"gs://cloud-training/gsp323/task4.flac"
   }
 }
-
+```
 ---
 
 
