@@ -88,14 +88,14 @@ export ACCESS_TOKEN=$(gcloud auth print-access-token)
 nano request.json
 
 ---
-
+```json
 {
    "inputUri":"gs://spls/gsp154/video/train.mp4",
    "features": [
        "TEXT_DETECTION"
    ]
 }
-
+```
 
 ---
 
