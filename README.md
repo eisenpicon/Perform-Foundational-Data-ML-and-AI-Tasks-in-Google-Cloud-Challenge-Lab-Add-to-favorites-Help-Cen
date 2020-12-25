@@ -13,7 +13,6 @@ gsutil cp gs://cloud-training/gsp323/lab.schema .
 cat lab.schema
 
 
-
 # Task 4: AI
 
 gcloud iam service-accounts create my-natlang-sa \
@@ -29,6 +28,8 @@ gcloud auth activate-service-account my-natlang-sa@${GOOGLE_CLOUD_PROJECT}.iam.g
 ## Utilice Cloud Natural Language API para analizar la oracion
 
 gcloud ml language analyze-entities --content="Old Norse texts portray Odin as one-eyed and long-bearded, frequently wielding a spear named Gungnir and wearing a cloak and a broad hat." > result.json
+
+###
 
 gcloud auth login 
 
