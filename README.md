@@ -1,7 +1,7 @@
 # Perform-Foundational-Data-ML-and-AI-Tasks-in-Google-Cloud-Challenge-Lab-Add-to-favorites-Help-Cen
 
 ##############################################################################################################################
-If you are getting help from our channel, we request you to subscribe to [Eisen Picon] (https://www.youtube.com/channel/UCXvWiFZ7h89FQx0nI-LfaGw), 
+If you are getting help from our channel, we request you to subscribe to [Eisen Picon](https://www.youtube.com/channel/UCXvWiFZ7h89FQx0nI-LfaGw), 
 this is the only way to help us.
 #############################################################################################################################
 ******************************************************************************************************************************
