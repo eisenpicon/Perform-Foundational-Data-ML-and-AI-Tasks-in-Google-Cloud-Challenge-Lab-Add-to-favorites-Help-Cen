@@ -4,7 +4,7 @@ Big data, machine learning, and artificial intelligence are today’s hot comput
 
 <div align="center"> 
   
-   [![alt text](imagen/GSP323.png.png "GSP323.png")](https://google.qwiklabs.com/focuses/11044?parent=catalog)
+   [![alt text](imagen/GSP323.png "GSP323.png")](https://google.qwiklabs.com/focuses/11044?parent=catalog)
 </div>
 
 
