@@ -2,6 +2,16 @@
 Big data, machine learning, and artificial intelligence are today’s hot computing topics, but these fields are quite specialized and introductory material is hard to come by. Fortunately, Google Cloud provides user-friendly services in these areas and Qwiklabs has you covered with this introductory-level quest, so you can take your first steps with tools like Big Query, Cloud Speech API, and AI Platform. Complete this quest, including the challenge lab at the end, to receive an exclusive Google Cloud digital badge.
 
 
+<div align="center"> 
+  
+   [![alt text](imagen/GSP323.png.png "GSP323.png")](https://google.qwiklabs.com/focuses/11044?parent=catalog)
+</div>
+
+
+[QUEST LINK](https://google.qwiklabs.com/quests/117)
+
+
+
 If you are getting help from our channel, we request you to subscribe to [Eisen Picon](https://www.youtube.com/channel/UCXvWiFZ7h89FQx0nI-LfaGw), 
 this is the only way to help us.
 
