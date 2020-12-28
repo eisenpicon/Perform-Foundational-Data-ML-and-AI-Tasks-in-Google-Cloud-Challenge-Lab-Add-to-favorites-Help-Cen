@@ -1,4 +1,7 @@
-# Perform-Foundational-Data-ML-and-AI-Tasks-in-Google-Cloud-Challenge-Lab-Add-to-favorites-Help-Cen
+# Perform Foundational Data, ML, and AI Tasks in Google Cloud
+Big data, machine learning, and artificial intelligence are today’s hot computing topics, but these fields are quite specialized and introductory material is hard to come by. Fortunately, Google Cloud provides user-friendly services in these areas and Qwiklabs has you covered with this introductory-level quest, so you can take your first steps with tools like Big Query, Cloud Speech API, and AI Platform. Complete this quest, including the challenge lab at the end, to receive an exclusive Google Cloud digital badge.
+
+
 If you are getting help from our channel, we request you to subscribe to [Eisen Picon](https://www.youtube.com/channel/UCXvWiFZ7h89FQx0nI-LfaGw), 
 this is the only way to help us.
 
