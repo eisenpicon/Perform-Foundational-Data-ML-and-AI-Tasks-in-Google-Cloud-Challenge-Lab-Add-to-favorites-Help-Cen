@@ -128,3 +128,12 @@ curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TO
 ```
 gsutil cp result1.json gs://YOUR_PROJECT-marking/task4-gvi.result
 ```
+
+## Congratulations! Completed this challenge lab.
+
+You completed the lab **Perform Foundational Data, ML, and AI**
+
+<div align="center"> 
+  
+   [![alt text](imagen/Perform-Foundational-Data-ML-AI.png "Perform Foundational Data, ML, and AI")](https://google.qwiklabs.com/public_profiles/3a451349-23c9-4a64-8464-c164280214a0/badges/579348 )
+</div>
