@@ -129,7 +129,7 @@ curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TO
 gsutil cp result1.json gs://YOUR_PROJECT-marking/task4-gvi.result
 ```
 
-## Congratulations! Completed this challenge lab.
+## Congratulations! Done with the challenge lab
 
 You completed the lab **Perform Foundational Data, ML, and AI**
 
